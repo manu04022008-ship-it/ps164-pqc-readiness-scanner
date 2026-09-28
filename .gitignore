@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Local archives
+*.zip
+
+# Local/generated test artifacts
+container_result.json
+container_test/
+test_container_scanner.py
+test_repo/
